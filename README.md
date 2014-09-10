@@ -2,14 +2,14 @@
 
 ## HTML
 
-* HTML5 elements *There are ways around this (HTML5 Shim)
+* HTML5 elements (but you can use [HTML5 Shim](https://code.google.com/p/html5shim/) to solve this)
 * Geolocation
 * Video
 * Audio
 
 ## Responsive Design
 
-* Media queries (`@media`) *There are ways around this (RespondJS)
+* Media queries (`@media`) (but you can use [Respond](https://github.com/scottjehl/Respond) to solve this)
 * `Calc()`
 
 ## Units
@@ -20,7 +20,7 @@
 
 ## Typography
 
-* .ttf, .otf, .woff (must serve .eot)
+* .ttf, .otf, .woff (you must serve .eot)
 
 ## Transparency
 
@@ -38,7 +38,7 @@
 ## Graphics
 
 * SVG
-* Multiple `background`s
+* Multiple backgrounds (that is, multiple entries in `background`)
 * `background-position`
 * `background-size`
 * Therefore you can't make use of sprites
@@ -51,7 +51,7 @@
 	* `skew`
 	* `scale`
 	* `matrix`
-* Apparently, we can use CSS3 Pie for these:
+* Apparently, we can use [CSS3 Pie](http://css3pie.com/) for these:
 	* `box-shadow`
 	* `border-radius`
 	* gradients (or use something like `filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#063053', endColorstr='#395873');`)
