@@ -1,42 +1,41 @@
-# Things not supported in IE 8
-## and ways to tackle some of these problems
+# Things not supported in IE 8 and ways to tackle some of these problems
 
-### Markup
+## Markup
 
 * HTML5 elements like `header`, `footer`, `section` `article`, etc (but you can use [HTML5 Shim](https://code.google.com/p/html5shim/) to solve this)
 * Geolocation
 * Video
 * Audio
 
-### Responsive Design
+## Responsive Design
 
 * Media queries (`@media`) (but you can use [Respond](https://github.com/scottjehl/Respond) to solve this)
 * `Calc()`
 
-### Units
+## Units
 
 * `rem`
 * `vw`, `vh`
 * `vmin`, `vmax`
 
-### Typography
+## Typography
 
 * .ttf, .otf, .woff (you must serve .eot – but most web font providers take care of this anyway)
 
-### Transparency
+## Transparency
 
 * `rgba()`
 * `hsla()`
 * `opacity` (but you can use something like `-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"`)
 
-### Pseudo Selectors
+## Pseudo Selectors
 
 * `:last-child`, `:nth-child()`, `:first-of-type`, `:last-of-type`
 * `:checked`, `:valid`, `:invalid`, `:required`
 * `:empty`
 * `:not()`
 
-### Graphics
+## Graphics
 
 * SVG
 * Multiple backgrounds (that is, multiple entries in `background`)
@@ -44,7 +43,7 @@
 * `background-size`
 * Therefore you can't make use of sprites
 
-### Presentation
+## Presentation
 
 * `transform`s:
 	* `rotate`
