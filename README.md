@@ -40,11 +40,12 @@
 * `canvas`
 * SVG
 * Multiple background images:
-* ```
-background-image: url('grass.png'), 
+	```
+	background-image: url('grass.png'), 
 					url(sky.png'), 
 					url('sun.png');
-```
+	```
+	
 * `background-position`
 * `background-size`
 * Therefore you can't make use of sprites
