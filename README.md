@@ -2,7 +2,7 @@
 
 ## Markup
 
-* HTML5 elements like `header`, `footer`, `section` `article`, etc (but you can use [HTML5 Shim](https://code.google.com/p/html5shim/) to solve this)
+* Semantic HTML5 elements like `article`, `aside`, `footer`, `header`, `nav`, `section`, etc (but you can use [HTML5 Shim](https://code.google.com/p/html5shim/) to solve this)
 * Geolocation
 * Video
 * Audio
@@ -20,7 +20,7 @@
 
 ## Typography
 
-* .ttf, .otf, .woff (you must serve .eot – but most web font providers take care of this anyway)
+* .ttf, .otf, .woff (you must serve .eot – but the majority of web font providers have you covered already)
 
 ## Transparency
 
@@ -37,8 +37,14 @@
 
 ## Graphics
 
+* `canvas`
 * SVG
-* Multiple backgrounds (that is, multiple entries in `background`)
+* Multiple background images:
+* ```
+background-image: url('grass.png'), 
+					url(sky.png'), 
+					url('sun.png');
+`````
 * `background-position`
 * `background-size`
 * Therefore you can't make use of sprites
