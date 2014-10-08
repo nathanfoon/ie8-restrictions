@@ -40,8 +40,9 @@
 * `canvas`
 * SVG
 * Multiple background images:
-	```
-	background-image: url('grass.png'), 
+
+    ```
+ 	background-image: url('grass.png'),
 					url(sky.png'), 
 					url('sun.png');
 	```
