@@ -51,6 +51,8 @@
 * `background-size`
 * Therefore you can't make use of sprites
 
+It's worth noting that, _generally_, if [SVGs aren't supported, then neither are multiple background images](http://css-tricks.com/svg-fallbacks/).
+
 ## Presentation
 
 * `transform`s:
