@@ -2,7 +2,7 @@
 
 ## Markup
 
-* Semantic HTML5 elements like `article`, `aside`, `figcaption`, `figure`, `footer`, `header`, `nav`, `section`, etc (but you can use [HTML5 Shim](https://github.com/aFarkas/html5shiv) to solve this)
+* Semantic HTML5 elements like `article`, `aside`, `figcaption`, `figure`, `footer`, `header`, `nav`, `section`, etc (but you can use [HTML5 Shiv/Shim](https://github.com/aFarkas/html5shiv) to solve this)
 * Geolocation
 * Video
 * Audio
