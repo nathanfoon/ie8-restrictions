@@ -10,7 +10,9 @@
 ## Responsive Design
 
 * Media queries (`@media`) (but you can use [Respond](https://github.com/scottjehl/Respond) to solve this)
-* `Calc()`
+
+## CSS Functions
+* `calc()`
 
 ## Units
 
