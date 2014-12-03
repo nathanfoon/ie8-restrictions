@@ -11,6 +11,10 @@
 
 * Media queries (`@media`) (but you can use [Respond](https://github.com/scottjehl/Respond) to solve this)
 
+## CSS Transition/Animation
+* `transition`
+* `@keyframes`
+
 ## CSS Functions
 * `calc()`
 
@@ -23,16 +27,17 @@
 ## Typography
 
 * .ttf, .otf, .woff (you must serve .eot – but the majority of web font providers have you covered already)
+* `columns`
 
 ## Transparency
 
 * `rgba()`
-* `hsla()`
+* `hsl()`, `hsla()`
 * `opacity` (but you can use something like `-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"`)
 
 ## Pseudo Selectors
 
-* `:last-child`, `:nth-child()`, `:first-of-type`, `:last-of-type`
+* `:last-child`, `:nth-child()`, `:nth-of-type()`, `:first-of-type`, `:last-of-type`
 * `:checked`, `:valid`, `:invalid`, `:required`
 * `:empty`
 * `:not()`
