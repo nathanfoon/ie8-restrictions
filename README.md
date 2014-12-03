@@ -45,8 +45,8 @@
 
     ```
  	background-image: url('grass.png'),
-					url(sky.png'), 
-					url('sun.png');
+	                  url(sky.png'), 
+	                  url('sun.png');
 	```
 	
 * `background-position`
