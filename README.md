@@ -1,5 +1,7 @@
 # Things not supported in IE 8 and ways to tackle some of these problems
 
+## It's my hope that you will never have to refer to this document (we're in the year 2015)
+
 ## Markup
 
 * Semantic HTML5 elements like `article`, `aside`, `figcaption`, `figure`, `footer`, `header`, `nav`, `section`, etc (but you can use [HTML5 Shiv/Shim](https://github.com/aFarkas/html5shiv) to solve this)
